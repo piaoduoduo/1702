@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>海洋污染</title>
+<link href="CSS/index.2.css" type="text/css" rel="stylesheet"/>
+<link href="CSS/author.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<div id="top" style="background:#0f1a20 url('image/logo.jpg') center center no-repeat;"></div> <!-- 确保图片路径正确 -->
+	<div id="m">
+		<ul>
+      <li><a href="index.html">网站首页</a></li>
+      <li><a href="page1.html">船舶污染</a></li>
+      <li><a href="page2.html">污染相关</a></li>    
+      <li><a href="page3.html">海洋视频</a></li>    
+      <li><a href="page5.html">保护海洋</a></li>    
+      <li><a href="page4.html">你的讯息</a></li>    
+    </ul>
+  </div>
+	<div id="c">
+	    <div id="ctop" class="ctop">
+			<h2><font color="#0a8093">你的讯息（如有其他爱好或想要声明的事可以在正文部分呈现）</font></h2>
+		</div>
+		<form action="" name="fm" method="post" onSubmit="return check(this)">
+		<style>
+		.tab1{border-collapse:collapse;}
+		.tab1 tr{ line-height:40px;}
+		.tab1 td{ border:1px solid #111; padding:15px 20px;}
+		</style>
+  <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin:20px auto;" class="tab1">
+  <tr>
+    <td>昵称</td>
+    <td><input type="text" name="username" id="username" style="width:400px; height:30px;border:1px solid #ccc;" required/></td> <!-- 添加required属性 -->
+  </tr>
+  <tr>
+    <td>电子邮件</td>
+    <td><input type="email" name="email" id="email" style="width:400px; height:30px;border:1px solid #ccc;" required/></td> <!-- 修改为email类型 -->
+  </tr>
+  <tr>
+    <td>性别</td>
+    <td>
+      <label><input name="gender" type="radio" value="male" />男</label>
+      <label><input name="gender" type="radio" value="female" />女</label> <!-- 添加name属性以便区分 -->
+    </td>
+  </tr>
+  <tr>
+    <td>爱好</td>
+    <td>
+      <label><input name="hobbies" type="checkbox" value="影视作品" />看影视作品</label>
+      <label><input name="hobbies" type="checkbox" value="美食" />吃美食</label>
+      <label><input name="hobbies" type="checkbox" value="球类运动" />球类运动</label>
+      <label><input name="hobbies" type="checkbox" value="旅行" />旅行</label> <!-- 添加name属性 -->
+    </td>
+  </tr>
+  <tr>
+    <td>职业状况</td>
+    <td>
+      <select name="job">
+        <option value="student">学生</option>
+        <option value="employed">已工作</option>
+        <option value="retired">已退休</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>电话</td>
+    <td><input type="tel" name="phone" id="phone" style="width:400px; height:30px;border:1px solid #ccc;" required/></td> <!-- 添加required属性，并修改为tel类型 -->
+  </tr>
+  <tr>
+    <td>正文*</td>
+    <td><textarea cols="50" name="content" id="content" rows="5" style="width:400px; height:100px;border:1px solid #ccc;" required></textarea></td> <!-- 添加required属性 -->
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" style="width:200px; height:30px;border:1px solid #ccc;" value="提交信息"/></td>
+  </tr>
+</table>
+</form>
+
+<script type="text/javascript">
+   function check(fm){
+     	 
+     	 if(document.fm.username.value=="" || document.fm.email.value=="" || document.fm.phone.value=="" || document.fm.content.value==""){
+     	     alert("各项信息不能为空!");
+     	     document.fm.username.focus();
+     	     return false;
+     	 }
+    	 return true;
+   }
+</script>
+
+	</div>
+	<div id="b">保护海洋 就是保护自己</div>
+</body>
+</html>

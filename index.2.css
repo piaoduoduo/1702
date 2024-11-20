@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background:#81cef5;
+}
+#top{
+	background:#0032bc;
+	width:900px;
+	height:130px;
+	margin: 0px auto;
+}
+#top p{
+	font-size: 36px;
+	text-align: center;
+	line-height: 130px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+#m {
+	width:900px;
+	height:50px;
+	margin:0px auto;
+	background:#0179b2 
+}
+#m ul {
+	list-style-type: none;
+}
+#m li {
+	float:left;
+	width:16.66%;
+	text-align: center;
+}
+#m li a {
+	font-size:20px;
+	color:#fff;
+	line-height:50px;
+	font-weight:bold;
+	font-family:微软雅黑;
+	text-decoration:none;
+}
+#m li:hover {
+	background:#47ede9;
+}
+#c{
+	background: white;
+	width:900px;
+	margin: 0px auto;
+}
+#b{
+	background:#0032bc;
+	width:900px;
+	height:80px; text-align:center; line-height:80px; color:#fff;
+	margin: 0px auto;
+	clear:left;
+}
+
+div img{
+-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+transform: scale(1, 1);
+-webkit-transition-duration: 500ms;
+-moz-transition-duration: 500ms;
+-o-transition-duration: 500ms;
+transition-duration: 500ms;
+-webkit-transition-timing-function: ease-out;
+-moz-transition-timing-function: ease-out;
+-o-transition-timing-function: ease-out;
+transition-timing-function: ease-out; cursor:pointer;
+}
+div img:hover{
+-webkit-transform: scale(1.08, 1.08);
+-moz-transform: scale(1.08, 1.08);
+-ms-transform: scale(1.08, 1.08);
+-o-transform: scale(1.08, 1.08);
+transform: scale(1.08, 1.08);
+-webkit-transition-duration: 500ms;
+-moz-transition-duration: 500ms;
+-o-transition-duration: 500ms;
+transition-duration: 500ms;
+-webkit-transition-timing-function: ease-out;
+-moz-transition-timing-function: ease-out;
+-o-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.xinzengbghy{ padding:0 30px 40px 30px;}
+.xinzengbghy p{ padding:0 0 10px 0;}

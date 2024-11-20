@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+img{
+	display: block;
+}
+.ctop{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.cl{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.cr{
+	margin-left: 580px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#ctop{
+	background:white;
+	width:900px;
+	height: 400px;
+	float:left;
+}
+#cl{
+	background:white;
+	width: 900px;
+	height:270px;
+	float:left;
+}
+#cl ul{
+	color: white;
+}
+#cl ul h1{
+	margin-left: 350px;
+	margin-top:-200px;
+	font-size: 19px;
+}
+#cl ul h1 a{
+	color:#0a8093;
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;	
+}
+#cl ul h1 a:hover{
+	font-size: 20px;
+	text-decoration: underline;
+}
+#cl p{
+	color:#444444;
+	margin-left:350px;
+	margin-right:20px;
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 15px;
+}
+#cr{
+	background:white;
+	width:900px;
+	height:270px;
+	float:left;
+}
+#cr ul h1{
+	margin-right:350px;
+	margin-left:20px;
+	margin-top:-200px;
+	font-size: 19px;
+}
+#cr ul h1 a{
+	color:#0a8093;
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;
+	
+}
+#cr ul h1 a:hover{
+	font-size: 20px;
+	text-decoration: underline;
+}
+#cr p{
+	color:#444444;
+	margin-right:350px;
+	margin-left:20px;
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 15px;
+}
+#cl2{
+	background:white;
+	width:450px;
+	height: 450px;
+	float:left;
+}
+#cl2 ul{
+	color: gray;
+}
+#cl2 ul h1{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+#cl2 ul h1 a{
+	color:#F0CC06;
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;	
+}
+#cl2 ul h1 a:hover{
+	font-size: 20px;
+	text-decoration: underline;
+}
+#cl2 p{
+	margin-left: 20px;
+	margin-right: 25px;
+	text-align: justify;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#cl2 p a{
+	color:#444444;
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	text-decoration: none;
+}
+#cl2 p a:hover{
+	text-decoration: underline;
+}
+#cr2{
+	background:white;
+	width:450px;
+	height: 450px;
+	float:left;
+}
+#cr2 ul{
+	color: gray;
+}
+#cr2 ul h1{
+	margin-left: 30px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+#cr2 ul h1 a{
+	color:#F0CC06;
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;	
+}
+#cr2 ul h1 a:hover{
+	font-size: 20px;
+	text-decoration: underline;
+}
+#cr2 p{
+	margin-left: 30px;
+	margin-right: 20px;
+	text-align: justify;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#cr2 p a{
+	color:#3C3C3C;
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	text-decoration: none;
+}
+#cr2 p a:hover{
+	text-decoration: underline;
+}
+.flexslider { position: relative; width:860px; margin:0 auto; height:360px; overflow: hidden; background: url(../images/loading.gif) 50% no-repeat; margin-top:20px;}
+.slides { position: relative; z-index: 1;}
+.slides li { height:360px;}
+.flex-control-nav { position: absolute; bottom: 10px; z-index: 2; width: 100%; text-align: center; margin-left:-38px;}
+.flex-control-nav li { display: inline-block; width: 14px; height: 14px; margin: 0 5px; *display: inline; zoom: 1;}
+.flex-control-nav a { display: inline-block; width: 14px; height: 14px; line-height: 40px; overflow: hidden; background: url(../images/dot.png) right 0 no-repeat; cursor: pointer;}
+.flex-control-nav .flex-active { background-position: 0 0;}
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a { text-decoration:none; display: block; width: 40px; height: 48px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8);  background:url(../images/arr.png) no-repeat; text-indent:-999em}
+.flex-direction-nav .flex-prev { left: -50px; background-position:0 0 }
+.flex-direction-nav .flex-next { right: -50px; background-position:-132px 0}
+.flexslider:hover .flex-prev { opacity: 0.7; left: 10px;}
+.flexslider:hover .flex-next { opacity: 0.7; right: 10px;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default;}
